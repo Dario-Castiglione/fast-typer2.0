@@ -1,0 +1,27 @@
+@import "../../libs/variables.scss";
+
+.container{
+    max-width: $width;
+    
+    .counter{
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .screen{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        text-align: center;
+        padding: 50px 10px;
+        margin: 20px auto;
+        p{
+            margin: 10px 0;
+        }
+    }
+    .input{
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+    }
+}

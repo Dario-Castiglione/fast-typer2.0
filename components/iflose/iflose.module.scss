@@ -1,0 +1,17 @@
+
+.container{
+
+  .top{
+    padding: 10px 10px;
+    justify-content: space-between;
+    display: flex;
+  }
+  .result{
+    div{
+      display: flex;
+      p{
+        margin-right: 10px;
+      }
+    }
+  }
+}

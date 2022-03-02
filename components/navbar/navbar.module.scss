@@ -1,0 +1,26 @@
+@import "../../libs/variables.scss";
+
+.container{
+    max-width: $width;
+    padding: 0 10px;
+    border-bottom: 1px solid #1b1b1b;
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo{
+            width: 100px;
+            height: 100px;
+            color: #1b1b1b;
+            transform: rotate(180deg);
+        }
+        .user{
+            color: #1b1b1b;
+            width: 50px;
+            height: 50px;
+            
+        }
+    }
+}
