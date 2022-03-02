@@ -43,8 +43,8 @@ export default function Iflose() {
         </div>
         <div className={style.result}>
           {data &&
-            data.map((el) => (
-              <div>
+            data.map((el, id) => (
+              <div key={id}>
                 <p>{el.nome}</p>
                 <p>{el.punteggio} punti</p>
               </div>

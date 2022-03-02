@@ -1,7 +1,7 @@
 import style from "./game.module.scss";
 import { useState } from "react";
 import { words } from "../../libs/data";
-import Iflose from "../ifLose";
+import Iflose from "../iflose";
 import { changePoint, handleLose } from "../../store/actions";
 import { useDispatch, useSelector } from "react-redux";
 //----------------------------------
